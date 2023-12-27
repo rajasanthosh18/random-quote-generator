@@ -1,38 +1,28 @@
-.App {
+.quote-container{
   text-align: center;
+  margin: 50px ;
+  padding: 20px;
+  border: 5px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.quote-text{
+  font-size: large;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.new-quote-btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 0.5px black;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.new-quote-btn:hover {
+  background-color: #45a049;
 }

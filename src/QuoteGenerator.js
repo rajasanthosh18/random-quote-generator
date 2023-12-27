@@ -23,8 +23,8 @@ function QuoteGenerator() {
     return (
 
         <div className='quote-container'>
-            <p >{quote}</p>
-            <button onClick={fetchQuote}>click</button>
+            <p className='quote-text' >{quote}</p>
+            <button onClick={fetchQuote} className='new-quote-btn'>New Quote</button>
         </div>
   )
 }
